@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main class="todo-container">
+            <section class="header_container">
+                <h2 class="title">To-Do List</h2>
+                <img class="todo_img" src="./img/tasks.png" alt="" />
+            </section>
+
+            <section class="input_container">
+                <input
+                    id="input_field_item"
+                    class="input_field"
+                    type="text"
+                    placeholder="Enter List Item Here ..."
+                    value=""
+                />
+                <button class="add-Btn">
+                    <img
+                        class="add-icon"
+                        src="./img/add.png"
+                        alt=""
+                        srcset=""
+                        id="addBtn"
+                    />
+                </button>
+            </section>
+
+            <section class="list_container" id="item-content"></section>
+        </main>
+
+        <div id="toast_container"></div>
+
+        <script src="/script.js"></script>
+    </body>
+</html>

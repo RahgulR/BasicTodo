@@ -1,5 +1,5 @@
 # BasichTodo
-basic to-do application
+basic to-do application using html,css and javascript
 
 1.Create new task item.
 2.Show created task.
